@@ -1,7 +1,47 @@
-/*
-    home.css: This website contains selectors only used in home.css
-
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding-top: 100px;
+    background: rgb(255, 255, 255);
+  }
+  .authbox {
+    display: flex;
+    justify-content: center;
+  }
+  .privateCard {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label,
+  body,
+  html,
+  .App,
+  #root,
+  .auth-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  .auth-inner {
+    padding: 40px 55px 45px 55px;
+  }
+  .auth-wrapper .form-control:focus {
+    border-color: #136add;
+  }
+  .auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+  }
+  .custom-control-label {
+    font-weight: 400;
+  }
